@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.6.1
-Release:          1
+Release:          2
 Summary:          A set of annotation maps describing the entire Gene Ontology
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
