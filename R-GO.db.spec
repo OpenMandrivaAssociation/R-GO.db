@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2.6.1
-Release:          2
+Version:          2.9.0
+Release:          1
 Summary:          A set of annotation maps describing the entire Gene Ontology
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/annotation/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/data/annotation/src/contrib/GO.db_2.9.0.tar.gz
 BuildArch:        noarch
 Requires:         R-core R-methods R-AnnotationDbi
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods
@@ -42,3 +42,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/extdata
 %{rlibdir}/%{packname}/help
+
